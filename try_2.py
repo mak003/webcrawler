@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 
 url ='http://localhost:7000/#!/panel'
 
+# keyword
 chrome_options = Options()
 chrome_options.add_argument('headless')
 driver = webdriver.Chrome(chrome_options=chrome_options)
