@@ -30,6 +30,24 @@ for handle in all_handles:
         time.sleep(2)
         driver.close()
 
+"""    
+#From Edmund Martin's blog
+def get_page(self.url):
+    try:
+        self.browser.get(url)
+        return self.browser.page_source
+    except Exception as e:
+        logging.exception(e)
+        return
+
+#From Jingmi's blog    
+def main()
+    MAX_PAGE = 100
+    for i in range(1, MAX_PAGE + 1):
+        index_page(1)
+    browser.close()
+"""
+
 time.sleep(2)
 driver.quit()
 
